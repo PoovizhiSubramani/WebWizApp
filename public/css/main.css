@@ -1,0 +1,128 @@
+.container {
+  padding: 0 !important;
+  max-width: inherit !important;
+}
+.theme--dark.v-application {
+  background: #0f2142 !important;
+}
+.v-application .primary_vue {
+  background-color: #0e3681 !important;
+}
+.v-application .secondary_vue {
+  background-color: #313638 !important;
+}
+.theme--dark.v-tabs > .v-tabs-bar {
+  background-color: inherit !important;
+}
+
+/* General */
+.align_center {
+  text-align: center;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Login page */
+.login_vue
+  .v-input.theme--dark.v-text-field--single-line.v-text-field--solo
+  .v-input__slot {
+  background: rgb(232, 240, 254) !important;
+}
+.v-text-field.v-text-field--solo .v-input__prepend-outer,
+.v-text-field.v-text-field--solo .v-input__append-outer {
+  margin-top: 5px !important;
+}
+
+/* TopBar */
+.v-tabs.v-tabs--centered.v-tabs--icons-and-text.theme--dark {
+  padding-bottom: 20px;
+}
+
+/* SearchBar */
+.v-system-bar.theme--dark.secondary_vue {
+  height: auto !important;
+  min-height: 120px;
+  justify-content: center;
+  display: block;
+  padding: 2%;
+}
+.theme--dark.v-input.v-text-field--solo.v-text-field--single-line {
+  min-width: 30%;
+}
+.theme--dark.v-text-field--solo > .v-input__control > .v-input__slot {
+  background: none !important;
+  border: thin solid #cccccc;
+}
+.v-text-field.v-text-field--solo .v-input__control,
+.v-select.v-select--chips .v-select__selections {
+  min-height: auto !important;
+}
+.v-toolbar .search_vue.v-input {
+  margin-top: 25px !important;
+  flex-grow: inherit;
+}
+.theme--dark.v-list,
+.theme--dark.v-list.v-select-list.v-sheet,
+.v-autocomplete__content > .theme--dark.v-list.v-select-list.v-sheet {
+  background-color: #313638 !important;
+}
+.theme--dark.v-expansion-panels .v-expansion-panel,
+.theme--dark.v-data-table {
+  background-color: inherit !important;
+}
+.expansion_vue .v-expansion-panel-content {
+  text-align: center;
+}
+.expansion_vue .v-input--radio-group--row .v-input--radio-group__input {
+  justify-content: center;
+}
+.theme--dark.v-data-table thead {
+  background-color: #0e3681;
+}
+/* Add/Update form */
+.form_vue {
+  padding: 30px !important;
+}
+.icon_prepend_tf .theme--dark.v-icon.v-icon.v-icon--disabled {
+  font-size: medium;
+  color: #0e3681 !important;
+}
+.v-text-field--enclosed .v-input__append-inner {
+  margin-top: 6px !important;
+}
+.add_edit_vue .layout {
+  margin: 10px 0px;
+}
+.add_edit_vue
+  .v-text-field--outlined.v-select
+  > .v-input__control
+  > .v-input__slot {
+  min-height: auto !important;
+  height: 34px;
+}
+.v-application--is-ltr .v-text-field .v-input__prepend-inner {
+  margin-top: 4px;
+}
+.v-input.select_vue.v-text-field--outlined {
+  width: 40px;
+}
+
+/* Modal */
+.v-application .lighten-2 {
+  background-color: #1a2f56 !important;
+}
+.v-dialog > .v-card__text,
+.v-dialog > .v-card__actions {
+  background-color: #1a2f56;
+  padding-top: 20px !important;
+}
+
+/* Ticket Template cards */
+.theme--dark.v-card {
+  max-width: 90%;
+  margin: 20px;
+  border-radius: 15px !important;
+  background-color: #1c3f83 !important;
+  /* min-height: 200px; */
+}
